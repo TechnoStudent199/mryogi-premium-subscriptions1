@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | MrYogi Premium Subscriptions</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">Home</a>
+    </header>
+
+    <section class="checkout">
+        <h1>Complete Your Purchase</h1>
+        
+        <form action="#">
+            <h3>Order Summary</h3>
+            <p>Selected Plan: ZEE5 1 Month 1 Screen - ₹49/-</p>
+
+            <h3>Your Details</h3>
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="account-details">ZEE5 Account Details:</label>
+            <input type="text" id="account-details" name="account-details" placeholder="Existing Email or New Account" required>
+
+            <h3>Payment Method</h3>
+            <label for="payment-method">Choose Payment Method:</label>
+            <select id="payment-method" name="payment-method">
+                <option value="upi">UPI (mryogipremium@ybl)</option>
+                <option value="bank">Bank Transfer</option>
+            </select>
+
+            <label for="terms">
+                <input type="checkbox" id="terms" name="terms" required> I agree to the <a href="terms.html">Terms and Conditions</a>
+            </label>
+
+            <button type="submit" class="cta-button">Complete Purchase</button>
+        </form>
+    </section>
+</body>
+</html>
